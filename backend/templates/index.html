@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Student Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- MARKS -->
+    <div class="card">
+        <h2>📊 Marks Predictor</h2>
+        <input id="hours" placeholder="Study Hours">
+        <input id="attendance" placeholder="Attendance %">
+        <button onclick="predict()">Predict</button>
+        <p id="result"></p>
+    </div>
+
+    <!-- RESUME -->
+    <div class="card">
+        <h2>📄 Resume Analyzer</h2>
+        <input type="file" id="resumeFile">
+        <button onclick="uploadResume()">Analyze</button>
+        <p id="resumeResult"></p>
+    </div>
+
+    <!-- CHATBOT -->
+    <div class="card">
+        <h2>🤖 Chatbot</h2>
+        <input id="chatInput" placeholder="Ask something...">
+        <button onclick="sendMessage()">Send</button>
+        <p id="chatResult"></p>
+    </div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
