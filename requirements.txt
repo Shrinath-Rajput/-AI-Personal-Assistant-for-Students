@@ -5,3 +5,4 @@ joblib
 nltk
 spacy
 flask-cors
+gunicorn
